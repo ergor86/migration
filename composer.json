@@ -1,0 +1,22 @@
+{
+    "name": "usuario/migration",
+    "scripts": {
+        "phinx": "phinx",
+        "test": "kahlan"
+    },
+    "autoload": {
+        "psr-4": {
+            "Usuario\\Migration\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "André de Souza Rosa",
+            "email": "andrepetsu@hotmail.com"
+        }
+    ],
+    "require-dev": {
+        "robmorgan/phinx": "^0.14.0",
+        "kahlan/kahlan": "^5.2"
+    }
+}
